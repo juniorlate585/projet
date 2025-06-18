@@ -1,0 +1,56 @@
+#nav {
+    transition: all .2s ease;
+}
+
+#nav:hover {
+    color: rgb(0, 110, 255);
+}
+
+.hero {
+    display: flex;
+    background-image: url(../images/bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orvelay {
+    position: absolute;
+    background-color: rgb(255, 255, 255, .8);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+
+
+#hover-card {
+    transition: all .5s ease;
+}
+
+#hover-card:hover {
+     transform: translateY(-10px);
+}
+
+
+@font-face {
+    font-family: 'Roboto-ExtraBold';
+    src: url('../fonts/Roboto/static/Roboto-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url('../fonts/Roboto/static/Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Roboto-Bold ;
+}
